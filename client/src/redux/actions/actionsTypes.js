@@ -1,0 +1,31 @@
+// dark mode
+export const HANDLE_DARK_MODE = "HANDLE_DARK_MODE";
+
+//system users
+export const SET_GROUP_DATA = "SET_GROUP_DATA";
+export const SET_USER_DATA = "SET_USER_DATA";
+export const SET_PERMISSIONS = "SET_PERMISSIONS";
+
+// company info
+export const SET_COMPANY_INFO = "SET_COMPANY_INFO";
+
+//tables
+export const SET_TABLE_DATA = "SET_TABLE_DATA";
+
+//expenses
+export const SET_EXPENSES_DATA = "SET_EXPENSES_DATA";
+
+//category
+export const SET_CATEGORY_DATA = "SET_CATEGORY_DATA";
+
+//products
+export const SET_PRODUCT_DATA = "SET_PRODUCT_DATA";
+
+// order
+export const ADD_MAKE_ORDER_DETAIL = "ADD_MAKE_ORDER_DETAIL";
+export const ADD_PRODUCT_BY_CATEGORY = "ADD_PRODUCT_BY_CATEGORY";
+export const ADD_PRODUCT_BY_CATEGORY_AND_ORDER_ID =
+  "ADD_PRODUCT_BY_CATEGORY_AND_ORDER_ID";
+export const REMOVE_ALL_PRODUCT_DATA = "REMOVE_ALL_PRODUCT_DATA";
+export const ADD_MAKE_ORDER_DETAIL_BY_TABLE_ID =
+  "ADD_MAKE_ORDER_DETAIL_BY_TABLE_ID";
